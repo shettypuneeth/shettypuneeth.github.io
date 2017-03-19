@@ -1,0 +1,115 @@
+body {
+  background-color: #e9eaed;
+  width: 100%;
+  height: 100%;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+.contact-card {
+  position: absolute;
+  background: #fff;
+  padding: 20px;
+  max-width: 34%;
+  height: 175px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.mask {
+  background-color: #fff;
+  position: absolute;
+}
+
+.header-top, .header-bottom, .subheader-bottom {
+  top: 0;
+  left: 62px;
+  right: 0;
+  height: 10px;
+}
+
+.bar {
+  top: 0;
+  width: 12px;
+  height: 50px;
+  left: 50px;
+}
+
+.header-right {
+  top: 10px;
+  left: 87%;
+  height: 12px;
+  right: 0;
+  width: auto;
+}
+
+.header-bottom {
+  top: 21px;
+  height: 8px;
+}
+
+.subheader-bottom {
+  top: 38px;
+  height: 12px;
+}
+
+.content-top {
+  top: 50px;
+  left: 0;
+  right: 0;
+  height: 20px;
+}
+
+.content-first, .content-second {
+  height: 8px;
+  left: 0;
+  right: 0;
+  top: 81px;
+}
+
+.content-first-end {
+  top: 70px;
+  height: 11px;
+  left: 85%;
+  right: 0;
+  width: auto;;
+}
+
+.content-second {
+  top: 99px;
+}
+
+.animated-background {
+  position: relative;
+  width: 100%;
+  height: 118px;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-name: placeHolderShimmer;
+  animation-timing-function: linear;
+	background: linear-gradient(to right, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+}
+
+@-webkit-keyframes placeHolderShimmer {
+  0% {
+    background-position: -408px 0
+  }
+  100% {
+    background-position: 408px 0
+  }
+}
+
+@keyframes placeHolderShimmer {
+  0% {
+    background-position: -408px 0
+  }
+  100% {
+    background-position: 408px 0
+  }
+}
