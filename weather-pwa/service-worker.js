@@ -252,7 +252,7 @@ self.addEventListener('fetch', function(event) {
 
 // Runtime cache configuration, using the sw-toolbox library.
 
-toolbox.router.get("https://query.yahooapis.com/v1/public/yql", toolbox.networkFirst, {"cache":{"maxEntries":10,"name":"weather-data-cache"}});
+toolbox.router.get(/^https:\/\/query.yahooapis.com\/v1\/public\/yql/, toolbox.networkFirst, {"cache":{"maxEntries":10,"name":"weather-data-cache"}});
 
 
 
