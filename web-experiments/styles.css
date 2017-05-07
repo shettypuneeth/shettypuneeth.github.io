@@ -42,7 +42,7 @@ body, html {
   display: flex;
   align-items: center;
   background-color: #fff;
-  padding: 18px;
+  padding: 18px 25px;
   border-bottom: 1px solid #eee;
   position: relative;
   line-height: 20px;
