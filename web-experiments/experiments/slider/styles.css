@@ -7,10 +7,9 @@ ul, li {
   align-items: center;
   position: absolute;
   width: 50%;
-  top: 0;
+  top: 30%;
   left: 0;
   right: 0;
-  bottom: 0;
   margin: auto;
   border: 1px solid #bdc3c7;
   height: 50px;
@@ -31,16 +30,19 @@ ul, li {
   white-space: nowrap;
   font-size: 0;
   line-height: 0;
-  transition: transform 1s ease-in-out;
+  transition: transform 0.7s ease-in-out;
 }
 
-.slab-1, .slab-2, .slab-3, .slab-4, .slab-5, .slab-6 {
+
+.slab {
   display: inline-block;
   margin-right: 5px;
   width: calc(25% - 5px);
   height: 100%;
   border-radius: 2px;
 }
+
+
 
 .slab-1 {
   background: #1abc9c;
@@ -76,5 +78,16 @@ ul, li {
   font-size: 14px;
   border-radius: 50%;
   background: #3498db;
-  color: #ffffff;;
+  color: #ffffff;
+  transition: background 0.3s;
+}
+
+.left-arrow:hover, .right-arrow:hover  {
+  background: #1F4788;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 95%;
+  }
 }
