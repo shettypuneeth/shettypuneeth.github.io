@@ -16,6 +16,12 @@
       url: 'experiments/watch-face',
     },
     {
+      title: 'Curve fitting',
+      annotation:
+        'Using mathematical functions to best fit a series of data points',
+      url: 'experiments/curve-fitting',
+    },
+    {
       title: 'Todo List',
       annotation: 'Todo list built with React',
       url: 'https://shettypuneeth.github.io/todoapp/',

@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-body, html {
+body,
+html {
   padding: 0;
   margin: 0;
   height: 100%;
@@ -28,7 +29,7 @@ body, html {
 
 .experiments-list {
   background-color: #fff;
-  transition: all .5s cubic-bezier(.55,0,.1,1);
+  transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
 }
 
 .experiments-list ul {
@@ -58,10 +59,12 @@ body, html {
   color: #34495e;
   font-weight: 700;
   text-decoration: none;
+  width: 100%;
+  display: block;
 }
 
 .annotation {
-  font-size: .85em;
+  font-size: 0.85em;
   color: #828282;
 }
 
