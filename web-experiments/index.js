@@ -11,6 +11,11 @@
 
   const projects = [
     {
+      title: 'Google Pixel charging',
+      annotation: 'Google Pixel charging animation',
+      url: 'experiments/pixel-charging',
+    },
+    {
       title: 'Watch face',
       annotation: 'Watch face built using HTML5 Canvas',
       url: 'experiments/watch-face',
