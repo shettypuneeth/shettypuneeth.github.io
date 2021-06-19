@@ -11,6 +11,12 @@
 
   const projects = [
     {
+      title: 'Generative art - Fourier transform',
+      annotation:
+        'Visualizations inspired from 3Blue1Brown video on fourier transform',
+      url: 'experiments/fourier-gen-art',
+    },
+    {
       title: 'Google Pixel charging',
       annotation: 'Google Pixel charging animation',
       url: 'experiments/pixel-charging',
